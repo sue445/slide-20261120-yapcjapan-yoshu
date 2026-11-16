@@ -58,23 +58,23 @@ $ git tag | wc -l
 
 ---
 ## プリキュアのシリーズを取得
-<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.hirogaru_sky.title" />
+<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.meitantei.title" />
 
 ---
 ## プリキュアがオンエア中か取得
-<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.hirogaru_sky.on_air%3F(%222023-07-29%22)" />
+<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.meitantei.on_air%3F(%222026-11-29%22)" />
 
 ---
 ## プリキュアのシリーズに所属してるメンバーを取得
-<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?&readonly=false&editor_height=8em&font_size=24&input=Precure.hirogaru_sky.members.map(%26%3Ahuman_name)%0APrecure.hirogaru_sky.members.count%0A" />
+<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?&readonly=false&editor_height=8em&font_size=24&input=Precure.meitantei.members.map(%26%3Ahuman_name)%0APrecure.meitantei.members.count%0A" />
 
 ---
 ## 特定のプリキュアを取得
-<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Cure.sky.human_name%0ACure.sky.precure_name%0ACure.sky.birthday%0A" />
+<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Cure.answer.human_name%0ACure.answer.precure_name%0ACure.answer.birthday%0A" />
 
 ---
-## ヒーローの出番です！
-<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Cure.sky.name%0ACure.sky.transform!%0ACure.sky.name%0ACure.sky.attack!%0A" />
+## そのナゾ！キュアット解決！
+<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Cure.answer.name%0ACure.answer.transform!%0ACure.answer.name%0ACure.answer.attack!%0A" />
 
 ---
 ## トロプリは毎話名乗りがランダムなので再現
