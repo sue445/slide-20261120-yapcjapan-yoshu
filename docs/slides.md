@@ -8,7 +8,9 @@ https://sue445.github.io/slide-techfes/
 
 ---
 ## ![sue445](img/sue445.png) 自己紹介
-@sue445
+* @sue445
+* ピクシブ株式会社
+* クラウドネイティブ分野のシニアテックリード
 
 ---
 ## RubyKaigi 2025 Speaker 💎
@@ -23,14 +25,14 @@ https://sue445.github.io/slide-techfes/
 * https://github.com/sue445/rubicure
 * プリキュアのRuby実装
 * 2013/12/15: v0.0.1 🎂
-* 2023/06/05: v3.2.2 (Latest)
-* 今年10周年 🎉
+* 2026/11/05: v4.2.2 (Latest)
+* 13年くらいメンテしてる
 
 ---
-## 全部で97 tagsある
+## 全部で124 tagsある
 ```bash
 $ git tag | wc -l
-      97
+     124
 ```
 
 ---
@@ -41,10 +43,10 @@ $ git tag | wc -l
 
 ---
 ### 毎年TVの本放送で追加キュア除いて全員揃った直後にgemをリリースしている
-* v2.1.0(2021/05/28): Add Tropical-Rouge! Precure 🌊
-* v3.1.0(2022/04/24): Add DeliciousParty❤️Precure
-* v3.2.0.rc1(2023/05/26): Add Hirogaru Sky Precure (exclude Cure Butterfly)
-* v3.2.0(2023/06/04): Add Cure Butterfly 🦋
+* v4.2.0.rc1(2026/03/08): Add Star Detective Precure! (only Cure Answer and Cure Mystique)
+* v4.2.0.rc2(2026/05/03): Add CureArcanaShadow 🍨
+* v4.2.0(2026/07/26): Add Cure Eclair 🦋
+* v4.2.1(2026/08/30): Add Cure Arcana ⚜️
 
 ---
 ## 主要機能の紹介
