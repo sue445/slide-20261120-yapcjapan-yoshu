@@ -147,10 +147,11 @@ $ git tag | wc -l
 ---
 ## rubicure-playground
 * https://github.com/sue445/rubicure-playground
-* Ruby
-* sinatra
-* Cloud Run
-* Ace Editor: https://ace.c9.io/
+  * Ruby
+  * sinatra
+  * Cloud Run
+  * Ace Editor: https://ace.c9.io/
+* スライド内のiframeで動かしている
 
 ---
 ## 仕組み
@@ -161,3 +162,7 @@ $ git tag | wc -l
 ---
 ## 頑張ったポイント
 * スライド埋め込みに使いやすいように入力済みのコードやフォントサイズなどをパラメータで渡せるようにした
+
+---
+## FAQ. ruby.wasmでいいのでは？
+* ブラウザ上でRubyを動かす部分は本当はruby.wasmを使いたかったのだが、3rd party製のgemを使えないためサーバサイドで動かす方式をとった
