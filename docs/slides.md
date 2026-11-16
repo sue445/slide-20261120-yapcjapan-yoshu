@@ -11,8 +11,8 @@ https://sue445.github.io/slide-techfes/
 @sue445
 
 ---
-## RubyKaigi 2023 Speaker 💎
-![rubykaigi2023](img/rubykaigi2023.jpg)
+## RubyKaigi 2025 Speaker 💎
+![rubykaigi2025](img/rubykaigi2025.png)
 
 ---
 ## 今日話すこと
