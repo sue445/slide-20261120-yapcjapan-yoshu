@@ -135,3 +135,29 @@ $ git tag | wc -l
 ---
 ## 平成プリキュア vs 令和プリキュア
 <iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Cure.star.heisei%3F%0ACure.cosmo.reiwa%3F%0APrecure.all_members.count(%26%3Aheisei%3F)%0APrecure.all_members.count(%26%3Areiwa%3F)" />
+
+---
+## 発表スライドについて
+* GitHub Pages: https://sue445.github.io/slide-techfes/
+* reveal.js: https://revealjs.com/
+  * markdownからいい感じにスライドを作れて便利
+  * 「発表スライド上でrubicureを動かす」という明確な目的があったので、HTMLでスライドを書けるreveal.jsを採用した
+* 2023年に開催されたTokyuRuby会議14の発表資料の使いまわし
+
+---
+## rubicure-playground
+* https://github.com/sue445/rubicure-playground
+* Ruby
+* sinatra
+* Cloud Run
+* Ace Editor: https://ace.c9.io/
+
+---
+## 仕組み
+1. エディタに任意コードを入力してサーバサイド(Cloud Runのsinatra app)にPOST
+2. POSTされたRubyのコードをsinatraで実行して、実行結果を標準出力をいい感じにキャプチャする
+3. サーバサイドから返された結果をフロントエンドで1行ずつそれっぽく表示
+
+---
+## 頑張ったポイント
+* スライド埋め込みに使いやすいように入力済みのコードやフォントサイズなどをパラメータで渡せるようにした
