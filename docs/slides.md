@@ -7,10 +7,8 @@
 https://sue445.github.io/slide-techfes/
 
 ---
-## 自己紹介
+## ![sue445](img/sue445.png) 自己紹介
 @sue445
-
-![sue445](img/sue445.png)
 
 ---
 ## RubyKaigi 2023 Speaker 💎
