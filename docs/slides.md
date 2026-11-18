@@ -1,10 +1,10 @@
 # Yet Another Pretty Cure - All about of rubicure
 
-[TBD](https://sue445.github.io/slide-techfes/)
+[YAPC::Tokyo 2026 非公式予習会](https://smartbank.connpass.com/event/411450/) #yapcjapan_yoshu
 
 @sue445
 
-https://sue445.github.io/slide-techfes/
+https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
 
 ---
 ## ![sue445](img/sue445.png) 自己紹介
