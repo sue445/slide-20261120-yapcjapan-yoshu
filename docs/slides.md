@@ -11,6 +11,7 @@ https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
 * @sue445
 * ピクシブ株式会社
 * クラウドネイティブ分野のシニアテックリード
+  * AWS, Google Cloud, Kubernetes
 
 ---
 ## RubyKaigi 2025 Speaker 💎
