@@ -18,6 +18,10 @@ https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
 ![rubykaigi2025](img/rubykaigi2025.png)
 
 ---
+## 2015/08/22 [プリキュアハッカソン 3](https://cure-hack.connpass.com/event/17280/)
+![20150822-precure-hackathon](img/20150822-precure-hackathon.jpg)
+
+---
 ## 今日話すこと
 * rubicureの紹介
 
