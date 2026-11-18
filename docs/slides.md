@@ -41,7 +41,7 @@ $ git tag | wc -l
 ## Versioning Policy
 * rubicure uses **Semantic Cure Versioning** ❤️
   * https://github.com/sue445/rubicure#versioning-policy
-* 基本的には普通のSemantic Versioningと同じだが、新しいプリキュアシリーズの追加の時はMinor versionを行う
+* 基本的には普通のSemantic Versioningと同じだが、新しいプリキュアシリーズの追加の時はMinor version upを行う
 
 ---
 ### 毎年TVの本放送で追加キュア除いて全員揃った直後にgemをリリースしている
