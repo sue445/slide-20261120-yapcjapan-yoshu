@@ -64,7 +64,7 @@ $ git tag | wc -l
 
 ---
 ## プリキュアがオンエア中か取得
-<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.meitantei.on_air%3F(%222026-11-29%22)" />
+<iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.meitantei.on_air%3F(%222026-11-20%22)" />
 
 ---
 ## プリキュアのシリーズに所属してるメンバーを取得
