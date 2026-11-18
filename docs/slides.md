@@ -140,7 +140,7 @@ $ git tag | wc -l
 
 ---
 ## 発表スライドについて
-* GitHub Pages: https://sue445.github.io/slide-techfes/
+* GitHub Pages: https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
 * reveal.js: https://revealjs.com/
   * markdownからいい感じにスライドを作れて便利
   * 「発表スライド上でrubicureを動かす」という明確な目的があったので、HTMLでスライドを書けるreveal.jsを採用した
