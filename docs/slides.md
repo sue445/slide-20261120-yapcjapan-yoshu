@@ -59,8 +59,7 @@ $ git tag | wc -l
 ## スライド内でRubyを動かしてるやつ
 * https://github.com/sue445/rubicure-playground
   * Ruby
-  * sinatra
-  * Cloud Run
+  * sinatraで作ったアプリをCloud Runで動かしている
   * Ace Editor: https://ace.c9.io/
 * スライド内のiframeで動かしている
 
