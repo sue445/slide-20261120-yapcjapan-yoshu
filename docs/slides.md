@@ -45,19 +45,38 @@ $ git tag | wc -l
 * 基本的には普通のSemantic Versioningと同じだが、新しいプリキュアシリーズの追加の時はMinor version upを行う
 
 ---
-### 毎年TVの本放送で追加キュア除いて全員揃った直後にgemをリリースしている
-* v4.2.0.rc1(2026/03/08): Add Star Detective Precure! (only Cure Answer and Cure Mystique)
-* v4.2.0.rc2(2026/05/03): Add CureArcanaShadow 🍨
-* v4.2.0(2026/07/26): Add Cure Eclair 🦋
-* v4.2.1(2026/08/30): Add Cure Arcana ⚜️
-
----
 ## 主要機能の紹介
 * 実際に動くのを見てもらうのが早いと思うので見せます
 
 ---
 ## 現在のプリキュアを取得
 <iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Precure.now" />
+
+## 発表スライドについて
+* GitHub Pages: https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
+* reveal.js: https://revealjs.com/
+
+---
+## スライド内でRubyを動かしてるやつ
+* https://github.com/sue445/rubicure-playground
+  * Ruby
+  * sinatra
+  * Cloud Run
+  * Ace Editor: https://ace.c9.io/
+* スライド内のiframeで動かしている
+
+---
+## 仕組み
+1. エディタに任意コードを入力してサーバサイド(Cloud Runのsinatra app)にPOST
+2. POSTされたRubyのコードをsinatraで実行して、実行結果を標準出力をいい感じにキャプチャする
+3. サーバサイドから返された結果をフロントエンドで1行ずつそれっぽく表示
+
+---
+## Q. ruby.wasmでいいのでは？
+* A. ruby.wasmだと3rd party製のgemを使えないためサーバサイドで動かす方式をとった
+
+---
+## ここから時間の許す限りrubicureを動かすパート
 
 ---
 ## プリキュアのシリーズを取得
@@ -138,34 +157,3 @@ $ git tag | wc -l
 ---
 ## 平成プリキュア vs 令和プリキュア
 <iframe class="playground" src="https://rubicure-playground-lczknh2o4a-an.a.run.app/play?readonly=false&editor_height=8em&font_size=24&input=Cure.star.heisei%3F%0ACure.cosmo.reiwa%3F%0APrecure.all_members.count(%26%3Aheisei%3F)%0APrecure.all_members.count(%26%3Areiwa%3F)" />
-
----
-## 発表スライドについて
-* GitHub Pages: https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
-* reveal.js: https://revealjs.com/
-  * markdownからいい感じにスライドを作れて便利
-  * 「発表スライド上でrubicureを動かす」という明確な目的があったので、HTMLでスライドを書けるreveal.jsを採用した
-* 2023年に開催されたTokyuRuby会議14の発表資料の使いまわし
-
----
-## rubicure-playground
-* https://github.com/sue445/rubicure-playground
-  * Ruby
-  * sinatra
-  * Cloud Run
-  * Ace Editor: https://ace.c9.io/
-* スライド内のiframeで動かしている
-
----
-## 仕組み
-1. エディタに任意コードを入力してサーバサイド(Cloud Runのsinatra app)にPOST
-2. POSTされたRubyのコードをsinatraで実行して、実行結果を標準出力をいい感じにキャプチャする
-3. サーバサイドから返された結果をフロントエンドで1行ずつそれっぽく表示
-
----
-## 頑張ったポイント
-* スライド埋め込みに使いやすいように入力済みのコードやフォントサイズなどをパラメータで渡せるようにした
-
----
-## FAQ. ruby.wasmでいいのでは？
-* ブラウザ上でRubyを動かす部分は本当はruby.wasmを使いたかったのだが、3rd party製のgemを使えないためサーバサイドで動かす方式をとった
