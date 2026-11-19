@@ -20,13 +20,12 @@ https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
 
 ---
 ## 今日話すこと
-* rubicureの紹介
-* YAPCのLTに落ちた話の供養
+* rubicureの紹介(YAPCのLTに落ちた話の供養)
 
 ---
 ## rubicureについて
 * https://github.com/sue445/rubicure
-* プリキュアのRuby実装
+* プリキュアのRuby実装(sue445の代表作)
 * 2013/12/15: v0.0.1 🎂
 * 2026/11/05: v4.2.2 (Latest)
 * 13年くらいメンテしてる
