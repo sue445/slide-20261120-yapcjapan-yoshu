@@ -12,6 +12,7 @@ https://sue445.github.io/slide-20261120-yapcjapan-yoshu/
 * ピクシブ株式会社
 * クラウドネイティブ分野のシニアテックリード
   * AWS, Google Cloud, Kubernetes
+* 今年YAPC初参加
 
 ---
 ## 2015/08/22 [プリキュアハッカソン 3](https://cure-hack.connpass.com/event/17280/)
