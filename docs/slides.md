@@ -74,7 +74,7 @@ $ git tag | wc -l
 * A. ruby.wasmだと3rd party製のgemを使えないためサーバサイドで動かす方式をとった
 
 ---
-## ここから先は時間の許す限りrubicureのexampleを動かすパート
+# ここから先は時間の許す限りrubicureのexampleを動かすパート
 
 ---
 ## プリキュアのシリーズを取得
