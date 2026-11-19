@@ -1,6 +1,6 @@
 # Yet Another Pretty Cure - All about of rubicure
 
-[YAPC::Tokyo 2026 非公式予習会](https://smartbank.connpass.com/event/411450/) #yapcjapan_yoshu
+2026/11/20 [YAPC::Tokyo 2026 非公式予習会](https://smartbank.connpass.com/event/411450/) #yapcjapan_yoshu
 
 [@sue445](https://x.com/sue445)
 
